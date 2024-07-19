@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document
+    </title>
+</head>
+<body>
+    
+
+        <script>
+        
+        ///get input from user by array looping
+
+        length = 5;
+        arr1 = [];
+        for ( i=0 ;i < length; i++){
+         arr1[i]=prompt();
+        }
+        console.log(arr1)
+
+
+        ///merge to array
+
+        let arr=[29,48,39,57,49]
+        let arr2=arr.find((x)=>x>40)
+        console.log(arr2)
+
+
+        ///indexOf 
+
+        let arr4=[1,2,3,4,2]
+        console.log(arr4.indexOf(2));
+
+
+        ///filter
+
+        let str="i am studing full stack development";
+        let str1=str.split(' ');
+        console.log(str1);
+        let str2=str1.filter(str1=>str1.length<5);
+        console.log(str2);
+
+
+        ///map
+
+        let str4=["akash"];
+        let str5=str4.map((x)=>x.toUpperCase());
+        console.log(str5);
+   </script>
+   
+</body>
+</html>
